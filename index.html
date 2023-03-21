@@ -8,7 +8,9 @@
 <h1>Hello World</h1>
 <p>I'm hosted with GitHub Pages.</p>
 <py-script>
-    print('Hello, World!')
+    import socket
+    nome_computer = socket.gethostname()
+    print(nome_computer)
 </py-script>
 </body>
 </html>
